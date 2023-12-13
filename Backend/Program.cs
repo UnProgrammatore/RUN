@@ -14,7 +14,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseStaticFiles();
+app.UseDefaultFiles(); // Sets index.html as the default page
+app.UseStaticFiles(); // Serves file in the wwwroot folder
 
 var summaries = new[]
 {
