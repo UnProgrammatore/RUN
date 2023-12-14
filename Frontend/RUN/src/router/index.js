@@ -13,7 +13,7 @@ const router = createRouter({
     {
       path: '/script/:scriptid',
       name: 'script',
-      component: () => ScriptView
+      component: ScriptView
     }
   ]
 })
